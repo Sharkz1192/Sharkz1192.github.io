@@ -1,5 +1,6 @@
 <html>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="CSS/index.css">
   <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
@@ -8,18 +9,19 @@
     <script src="index.js"> </script>
         
 </head>
-<body onclick="playsound()">
+<body onclick="playsound()"> 
+    <img src="images/Slide.jpg"class="CoverPictures"/>
   <audio id="pump">
       <source src="pump.wav" type="audio/wav">
     </audio>
   <h1>How To Fortnite...</h1>
     <div class="Tabs"> 
-        <a class="Updates" href= "Updates.html">Maps</a>
-        <a class="Weapons" href="weapons.html">Weapons</a>
-        <a class="Items" href="Items.html">Items</a>
-        <a class="Skins" href="Skins.html">Skins</a>
+        <a onclick="Updates()" class="Updates" href= "Updates.html">Maps</a>
+        <a onclick="Weapons()" class="Weapons" href="weapons.html">Weapons</a>
+        <a onclick="Items()" class="Items" href="Items.html">Items</a>
+        <a onclick="Skins()" class="Skins" href="Skins.html">Skins</a>
     </div>
-    
+   
     
 </body>
 </html>
