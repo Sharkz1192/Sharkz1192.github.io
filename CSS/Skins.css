@@ -1,3 +1,19 @@
+body {
+    background-image:url("../images/WallPapers.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+ul,li, h3, p,  h1  {
+    color: white;
+}
+
+.container {
+    background-color: rgba(102, 0, 0, 0.8);
+}
 
 
 .Armadillo {
@@ -128,12 +144,23 @@
  grid-area: ArticAssassin;   
 }
 
+.ArticAssassin {
+ grid-area: ArticAssassin;   
+}
+
+
+
+
+
+
+
 
 
 
 .SkinGrid {
     display: grid;
     grid-template-areas:
+        
         "Armadillo AssaultTrooper Commando CrimsonScout"
         "Devestator Dominator HighRiseAssaultTrooper JungleScout"
         "Liteshow Nitelite NogOps Pathfinder"

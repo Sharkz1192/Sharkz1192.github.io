@@ -22,10 +22,10 @@ h1 {
 img {
   height: 500px;
   width: 50%;
-  
+
 }
 
-a { 
+a {
 
 font-size: 20pt
 
@@ -45,7 +45,7 @@ div{
 
 }
 .Tabs a {
-    
+
  text-decoration: none;
     color: black;
     border-radius: 50%;
@@ -67,10 +67,27 @@ background-color: green;
 background-color: white;
 }
 .Items{
-background-color: orange;    
+background-color: orange;
 }
 .Skins{
 background-color: red;
-}   
+}
 
+#unload{
+width:100%;
+    transition: .2s;
+}
 
+@keyframes Yeet {
+  from {width:100%;}
+  to{width:0%;}
+}
+
+.CoverPictures{
+animation-name:Yeet;
+animation-duration: 0.2s;
+
+width:0;
+   height: 100%;
+    position: absolute;
+}
