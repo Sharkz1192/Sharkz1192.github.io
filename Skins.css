@@ -1,0 +1,178 @@
+body {
+    background-image:url("../images/WallPapers.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+ul,li, h3, p,  h1  {
+    color: white;
+}
+
+.container {
+    background-color: rgba(102, 0, 0, 0.8);
+}
+
+
+.Armadillo {
+    grid-area: Armadillo; 
+    
+}
+
+.AssaultTrooper {
+ grid-area: AssaultTrooper;   
+}
+
+.Commando {
+ grid-area: Commando;   
+}
+
+.CrimsonScout {
+ grid-area: CrimsonScout;   
+}
+
+.Devestator {
+ grid-area: Devestator;   
+}
+
+.Dominator {
+ grid-area: Dominator;   
+}
+
+.HighRiseAssaultTrooper {
+ grid-area: HighRiseAssaultTrooper;   
+}
+.JungleScout {
+ grid-area: JungleScout;   
+}
+
+.Liteshow {
+ grid-area: Liteshow;   
+}
+
+.Nitelite {
+ grid-area: Nitelite;   
+}
+
+.NogOps {
+ grid-area: NogOps;   
+}
+
+.Pathfinder {
+ grid-area: Pathfinder;   
+}
+
+.Ranger {
+ grid-area: Ranger;   
+}
+
+.Renegade {
+ grid-area: Renegade;   
+}
+
+.ScarletDefender {
+ grid-area: ScarletDefender;   
+}
+
+.Scorpian {
+ grid-area: Scorpian;   
+}
+
+.Scout {
+ grid-area: Scout;   
+}
+
+.SgtGreenClover {
+ grid-area: SgtGreenClover;   
+}
+
+.StarSpangledRanger {
+ grid-area: StarSpangledRanger;   
+}
+
+.StarSpangledTrooper {
+ grid-area: StarSpangledTrooper;   
+}
+
+.TacticsOfficer {
+ grid-area: TacticsOfficer;   
+}
+
+.TowerReaconSpecialist {
+ grid-area: TowerReaconSpecialist;   
+}
+
+.Tracker {
+ grid-area: Tracker;   
+}
+
+.Trooper {
+ grid-area: Trooper;   
+}
+
+.Whiplash {
+ grid-area: Whiplash;   
+}
+
+.YuletideRanger {
+ grid-area: YuletideRanger;   
+}
+
+.Garrison {
+ grid-area: Garrison;   
+}
+
+.GrillSergeant {
+ grid-area: GrillSergeant;   
+}
+
+.AbsoluteZero {
+ grid-area: AbsoluteZero;   
+}
+
+.AerialAssaultTrooper {
+ grid-area: AerialAssaultTrooper;   
+}
+
+.AerialThreat {
+ grid-area: AerialThreat;   
+}
+
+.ArticAssassin {
+ grid-area: ArticAssassin;   
+}
+
+.ArticAssassin {
+ grid-area: ArticAssassin;   
+}
+
+
+
+
+
+
+
+
+
+
+.SkinGrid {
+    display: grid;
+    grid-template-areas:
+        
+        "Armadillo AssaultTrooper Commando CrimsonScout"
+        "Devestator Dominator HighRiseAssaultTrooper JungleScout"
+        "Liteshow Nitelite NogOps Pathfinder"
+        "Ranger Renegade ScarletDefender Scorpian"
+        "Scout SgtGreenClover StarSpangledRanger StarSpangledTrooper"
+        "TacticsOfficer TowerReaconSpecialist Tracker Trooper"
+        "Whiplash Garrison YuletideRanger GrillSergeant"
+        "AbsoluteZero AerialAssaultTrooper AerialThreat ArticAssassin"
+    "BackBone BlueSquire BlueTeamLeader Brawler";
+    
+}
+
+#SUB {
+    text-align: right;
+}
