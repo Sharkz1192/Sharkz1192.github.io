@@ -26,7 +26,7 @@ $(document).ready(function(){
 });
 
 function updates() {
-    loc = "Updates";   
+    loc = "Ulpdates";   
 }
 
 function Weapons() {

@@ -1,5 +1,6 @@
 body {
-    background-image:url("../images/WallPapers.jpg");
+    
+    background-image:url("../images/SKING.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -14,8 +15,13 @@ ul,li, h3, p,  h1  {
 .container {
     background-color: rgba(102, 0, 0, 0.8);
 }
+
+
+
+
+
 h1 {
-    text-align: left;   
+    text-align: center;   
 }
 
 audio {
@@ -24,8 +30,6 @@ audio {
         height:20px;
     }
 
-p { 
-
-font-size: 20pt
-
-}
+.SkinGrid {
+    display: grid;
+    grid-template-areas:
